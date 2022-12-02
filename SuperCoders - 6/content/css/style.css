@@ -1,0 +1,132 @@
+/* Divided in Two Parts */
+.split {
+  height: 100%;
+  width: 50%;
+  position: fixed;  
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  box-shadow: 0px 0px 3px;
+}
+
+/* Right Part */
+.right 
+{
+  right: -10%;
+  left: 50%;
+  color: lightgray;
+}
+
+
+/* input text */
+#text
+{
+  color: darkslategray;
+  padding-right: 30px;
+  margin: 10px;
+  font-weight: bold;
+  font-size: 40px;
+  font-family: sans-serif;
+  border: none;
+  outline: none;
+}
+
+
+/* Left Part */
+.left
+{
+  background-color: rgb(241 241 241);
+  left: 0;  
+}
+
+/* Head Title */
+#Title
+{
+  text-align:left;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 0%;
+  font: message-box;
+}
+
+/* Title Paraghraph */
+#subtitle
+{
+  color: gray;
+}
+
+/* button */
+/* #btn 
+{
+  border: none; 
+  background-color: darkslategray;
+  color: white;
+  cursor: pointer;
+  margin-left: 40%;
+  font-family: sans-serif;
+} */
+
+/* main container */
+#parent
+{
+  color: gray;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 0%;
+  font: message-box;
+}
+
+.inputText
+{
+  
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Complete List */
+.listContainer
+{
+  white-space: nowrap;
+  align-items: center;
+}
+
+hr
+{
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Pencil */
+.editText
+{
+  display: inline-block; 
+  cursor: pointer;
+  justify-content: flex-end;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* Chekbox */
+.check
+{
+  display: inline-block; 
+  cursor: pointer;
+  justify-content: flex-end;
+}
+
+/* cross "X" */
+.cross
+{
+  display: inline-block;
+  cursor: pointer;
+  justify-content: flex-end;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+span.edit
+{
+  right: 0;
+  position: absolute;
+  padding-right: 16px;
+}
